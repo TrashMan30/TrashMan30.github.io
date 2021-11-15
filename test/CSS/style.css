@@ -17,3 +17,9 @@ body {
   font-size: large;
   font-family: Cambria;
 }
+#g {
+  color: green;
+}
+.r {
+  color: red;
+}
