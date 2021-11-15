@@ -9,6 +9,10 @@ h2 {
 }
 div {
   color: #3b2f3d;
+  border: 3px solid black;
+  border-radius: 1ex;
+  border-style: dotted;
+  text-align: center;
 }
 body {
   background-color: #ccffff;
