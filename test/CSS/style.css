@@ -30,3 +30,11 @@ body {
 #bottomLink {
   color: #959ca6;
 }
+#about {
+  color: #ed7168;
+  text-transform: capitalize;
+  text-shadow: #323f3f;
+  font-size: 20pt;
+  text-align: center;
+  background-color: #adf6e0;
+}
