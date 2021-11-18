@@ -1,15 +1,18 @@
 body {
-  color: #9eb3c2;
+  background-color: #aee1e1;
+  font-size: 150%;
+  font-family: Cambria;
 }
 p {
-  color: #1c7293;
+  color: #fcd1d1;
+  font-family: Cambria;
 }
 h1 {
-  color: #21295c;
+  color: #ffa4a4;
 }
 h2 {
-  color: #1b3b6f;
+  color: #855a5c;
 }
 h3 {
-  color: #065a82;
+  color: #ece2e1;
 }
