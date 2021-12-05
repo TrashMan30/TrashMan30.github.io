@@ -16,6 +16,7 @@ div {
   display: flex;
   justify-content: center;
   font-weight: bold;
+  background-attachment: fixed;
 }
 .big-image {
   background-image: url("/test/img/bigImage.jpg");
@@ -26,10 +27,12 @@ div {
   background-image: url("/test/img/smallImage2.png");
   background-position-x: center;
   background-position-y: center;
+  background-size: cover;
 }
 .medium-image {
   background-image: url("/test/img/mediumImage.jpg");
   background-position-x: center;
   background-position-y: center;
   color: #ff0d00;
+  background-size: cover;
 }
