@@ -11,11 +11,12 @@ div {
   background-repeat: no-repeat;
   text-align: center;
 
-  font-size: 80px;
   align-items: center;
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+
   background-attachment: fixed;
 }
 .big-image {
@@ -31,8 +32,36 @@ div {
 }
 .medium-image {
   background-image: url("/test/img/mediumImage.jpg");
-  background-position-x: center;
-  background-position-y: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/test/img/mediumImage.jpg") center/cover no-repeat;
+  background-attachment: fixed;
   color: #ff0d00;
-  background-size: cover;
+}
+img {
+  border: 10px;
+  border-style: solid;
+  float: left;
+  height: 60vh;
+}
+.header {
+  display: inline-block;
+  text-align: center;
+  text-decoration: underline;
+  text-indent: 20px;
+  font-size: 40px;
+  padding-top: 200px;
+  /* border-style: solid; */
+  /* height: 200px; */
+}
+.content {
+  text-align: left;
+  color: rgb(225, 235, 245);
+}
+#midImage {
+}
+#second {
+  display: inline-block;
+}
+#sec {
+  text-align: left;
 }
