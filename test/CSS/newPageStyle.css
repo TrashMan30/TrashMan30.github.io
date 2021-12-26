@@ -1,0 +1,84 @@
+* {
+  background-color: black;
+}
+/* html {
+  height: 100vh;
+}
+body {
+  min-height: 100vh;
+} */
+#main-text {
+  font-size: 11rem;
+  width: 99vw;
+  z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: black;
+  text-align: center;
+  margin-top: 30vh;
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#second-text {
+  font-size: 10rem;
+  width: 99vw;
+  z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color: black;
+  text-align: center;
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes barMoving {
+  0% {
+    transform: translateX(700px);
+  }
+}
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: black;
+    z-index: 3;
+    background: white;
+  }
+  100% {
+    color: black;
+    z-index: 10;
+    background: white;
+  }
+}
+@keyframes alternate {
+  0% {
+    color: black;
+    z-index: 3;
+    background: white;
+  }
+  25% {
+    color: black;
+    z-index: 3;
+    background: white;
+  }
+  50% {
+    color: black;
+    z-index: 3;
+    background: white;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
