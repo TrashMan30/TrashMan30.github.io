@@ -14,17 +14,19 @@ body {
   width: 100vw;
   background-color: white;
   border: solid black 0.5em;
+
   position: relative;
+  position: fixed;
 }
 #my-project {
-  position: absolute;
+  position: fixed;
   background-color: rgb(255, 255, 255);
   height: 7vh;
 
   width: 15vw;
   top: 2.5%;
-  left: 2%;
-  font-size: 1.7rem;
+  left: 1.5%;
+  font-size: 2rem;
 
   font-weight: 700;
   text-align: center;
