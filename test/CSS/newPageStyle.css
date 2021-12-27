@@ -1,5 +1,5 @@
 * {
-  background-color: black;
+  background-color: #1b1b1b;
   margin: 0;
   box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ body {
   height: 12vh;
   width: 100vw;
   background-color: white;
-  border: solid black 0.5em;
+  border: solid #1b1b1b 0.5em;
 
   position: relative;
   position: fixed;
@@ -37,7 +37,7 @@ body {
     7px 6px 1px #cccccc;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: black solid 0.25em;
+  border: #1b1b1b solid 0.25em;
   box-shadow: var(--shadowBeforeHover);
   transition: var(--shadow-transition);
 }
@@ -78,9 +78,9 @@ body {
   top: 2%;
   right: 3%;
   width: fit-content;
-  border: 7px solid black;
+  border: 7px solid #1b1b1b;
   margin-left: 1px;
-  background-color: black;
+  background-color: #1b1b1b;
   box-shadow: var(--shadowBeforeHover);
   transition: var(--shadow-transition);
 }
