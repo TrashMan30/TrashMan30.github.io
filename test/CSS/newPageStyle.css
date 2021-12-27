@@ -97,3 +97,26 @@ body {
   -moz-box-shadow: 18px 19px 33px 5px rgba(0, 0, 0, 0.81);
   --shadow-transition: box-shadow 1s ease-in-out;
 }
+.main-text {
+  height: 60vh;
+  width: 50vw;
+  background-color: var(--commonBackground);
+  margin: auto;
+  position: absolute;
+  top: 13%;
+  left: 25%;
+  --commonBackground: rgb(70, 63, 63);
+}
+
+h1 {
+  background-color: var(--commonBackground);
+  text-align: left;
+
+  text-decoration: dotted;
+}
+.main-text {
+  font-size: 2rem;
+  color: #f7f7f7;
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+}
