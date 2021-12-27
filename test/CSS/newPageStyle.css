@@ -1,84 +1,54 @@
 * {
   background-color: black;
+  margin: 0;
+  box-sizing: border-box;
 }
-/* html {
-  height: 100vh;
+html {
+  width: 100vw;
 }
 body {
-  min-height: 100vh;
-} */
-#main-text {
-  font-size: 11rem;
-  width: 99vw;
-  z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
-  background-color: black;
-  text-align: center;
-  margin-top: 30vh;
-  animation-name: colorChange;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  min-width: 100vw;
 }
-#second-text {
-  font-size: 10rem;
-  width: 99vw;
-  z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
-  background-color: black;
-  text-align: center;
-  animation-name: colorChange;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+.navigation {
+  height: 12vh;
+  width: 100vw;
+  background-color: white;
+  border: solid black 0.5em;
+  position: relative;
 }
+#my-project {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 7vh;
 
-@keyframes barMoving {
-  0% {
-    transform: translateX(700px);
-  }
+  width: 15vw;
+  top: 2.5%;
+  left: 2%;
+  font-size: 1.7rem;
+
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: black solid 0.25em;
 }
-@keyframes colorChange {
+#my-project::after {
+  content: ".";
+  animation: blinking-dot 1.5s infinite;
+}
+@keyframes blinking-dot {
   0% {
-    color: white;
-  }
-  25% {
-    color: white;
+    opacity: 0;
   }
   50% {
-    color: white;
-  }
-  75% {
-    color: black;
-    z-index: 3;
-    background: white;
+    opacity: 1;
   }
   100% {
-    color: black;
-    z-index: 10;
-    background: white;
-  }
-}
-@keyframes alternate {
-  0% {
-    color: black;
-    z-index: 3;
-    background: white;
-  }
-  25% {
-    color: black;
-    z-index: 3;
-    background: white;
-  }
-  50% {
-    color: black;
-    z-index: 3;
-    background: white;
-  }
-  75% {
-    color: white;
-  }
-  100% {
-    color: white;
+    opacity: 0;
   }
 }
