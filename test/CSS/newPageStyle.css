@@ -38,9 +38,11 @@ body {
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: black solid 0.25em;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: var(--shadowBeforeHover);
+  transition: var(--shadow-transition);
+}
+#my-project:hover {
+  box-shadow: var(--shadowHover);
 }
 #my-project::after {
   content: ".";
@@ -74,12 +76,23 @@ body {
 .icons {
   position: fixed;
   top: 2%;
-  right: 5%;
+  right: 3%;
   width: fit-content;
   border: 7px solid black;
   margin-left: 1px;
   background-color: black;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: var(--shadowBeforeHover);
+  transition: var(--shadow-transition);
+}
+.icons:hover {
+  box-shadow: var(--shadowHover);
+}
+:root {
+  --shadowBeforeHover: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  --shadowHover: 18px 19px 33px 5px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: 18px 19px 33px 5px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: 18px 19px 33px 5px rgba(0, 0, 0, 0.81);
+  --shadow-transition: box-shadow 1s ease-in-out;
 }
