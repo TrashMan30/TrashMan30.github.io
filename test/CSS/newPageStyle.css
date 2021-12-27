@@ -26,8 +26,8 @@ body {
   width: 15vw;
   top: 2.5%;
   left: 1.5%;
-  font-size: 2rem;
-
+  font-size: calc(1vw + 1.12vh);
+  color: #1b1b1b;
   font-weight: 700;
   text-align: center;
   text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
@@ -61,16 +61,16 @@ body {
 }
 .fa-facebook-square {
   color: #f7f7f7;
-  font-size: 4em;
+  font-size: calc(1.5vw + 3vh);
   text-align: center;
 }
 .fa-instagram-square {
   color: #f7f7f7;
-  font-size: 4em;
+  font-size: calc(1.5vw + 3vh);
 }
 .fa-github-square {
   color: #f7f7f7;
-  font-size: 4em;
+  font-size: calc(1.5vw + 3vh);
 }
 
 .icons {
