@@ -12,7 +12,7 @@ body {
 .navigation {
   height: 12vh;
   width: 100vw;
-  background-color: white;
+  background-color: #f7f7f7;
   border: solid #1b1b1b 0.5em;
 
   position: relative;
@@ -20,7 +20,7 @@ body {
 }
 #my-project {
   position: fixed;
-  background-color: rgb(255, 255, 255);
+  background-color: #f7f7f7;
   height: 7vh;
 
   width: 15vw;
@@ -60,16 +60,16 @@ body {
   }
 }
 .fa-facebook-square {
-  color: rgb(255, 255, 255);
+  color: #f7f7f7;
   font-size: 4em;
   text-align: center;
 }
 .fa-instagram-square {
-  color: rgb(255, 255, 255);
+  color: #f7f7f7;
   font-size: 4em;
 }
 .fa-github-square {
-  color: rgb(255, 255, 255);
+  color: #f7f7f7;
   font-size: 4em;
 }
 
