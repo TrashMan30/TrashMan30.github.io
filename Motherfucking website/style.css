@@ -10,7 +10,7 @@ body {
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.05rem;
   padding-top: 15px;
-  font-size: 1.2rem;
+  font-size: 1em;
 }
 h1.title {
   margin: 0px;
@@ -23,7 +23,7 @@ header {
   font-size: 2rem;
 }
 aside {
-  font-size: 2rem;
+  font-size: 1em;
 }
 .rantOne {
   background-color: #393e46;
